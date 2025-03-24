@@ -9,8 +9,7 @@ public class LoginLogout_saucedemosite {
 	public static void main(String[] args) throws InterruptedException {
 		
 		Excelsheet_getdata edata = new Excelsheet_getdata();
-				
-				
+						
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		
